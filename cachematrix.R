@@ -1,3 +1,6 @@
+## this assignment for R proraming course
+
+##this function is for calculate inverse for cache matrix
 makeCacheMatrix <- function(x = matrix()) {
     matInv <- NULL
     set <- function(y) {
@@ -12,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
     getInverse = getInverse)
 }
 
-
+##this function is for solving from argument cached from previuse function
 cacheSolve <- function(x, ...) {
     m <- x$getInverse()
     if( !is.null(m) ) {
